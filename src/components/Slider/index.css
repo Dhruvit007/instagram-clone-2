@@ -1,0 +1,35 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-container {
+  width: 95%;
+  max-width: 1200px;
+  margin-top: 10px;
+}
+
+.logo-image {
+  margin: 0px 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 80px;
+}
+
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-item {
+  text-align: center;
+}
+.image-story-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

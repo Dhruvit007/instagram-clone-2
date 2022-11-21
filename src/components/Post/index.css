@@ -1,0 +1,28 @@
+.post-container {
+  border: solid 1px black;
+}
+.profile-pic-container {
+  border: 1.03px solid;
+  border-image-source: linear-gradient(
+    314.35deg,
+    #e20337 6.03%,
+    #c60188 40.88%,
+    #7700c3 73.23%
+  );
+  /* border: 1px solid transparent;
+  border-image: linear-gradient(45deg, red, yellow); */
+  border-image-slice: 1;
+  height: 120px;
+  border-radius: 10px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+}
+.profile-pic {
+  width: 28px;
+  height: 28px;
+  border-radius: 20px;
+}
